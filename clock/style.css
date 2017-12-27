@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+body, html {
+	background: radial-gradient(center center, circle cover, #d6e9f7 0%, #7899b5 100%);
+  	background: -moz-radial-gradient(center center, circle cover, #d6e9f7 0%, #7899b5 100%);
+  	background: -webkit-radial-gradient(center center, circle cover, #d6e9f7 0%, #7899b5 100%);
+  	margin: 0;
+  	padding: 0;
+ 	width:100%;
+ 	height:100%;
+ 	overflow:hidden;
+ 	font-family: 'Ubuntu', sans-serif;
+  }
+
+.clock {
+	width:190px;
+	height:190px;
+	position:absolute;
+	margin: auto;
+	background-image: linear-gradient(#f6f6f6,#e0e0e0);
+	border-radius:20px;
+	top:50%;
+	bottom:50%;
+	left:0;
+	right:0;
+	box-shadow: 0 10px 15px rgba(0,0,0,.15), 0 3px 4px rgba(0,0,0,.25),inset 0 -4px 8px rgba(0,0,0,.15);
+}
+
+.clock::after {
+	position:absolute;
+	content:'';
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	background: #000;
+	top:50%;
+	bottom:50%;
+	left:0;
+	right:0;
+	background-image: linear-gradient(#E5E5E5,#F5F5F5);
+	margin: auto;
+}
+
+.numbers {
+	color:#9F9FA0;
+	font-size: 20px;
+	/*position:relative;*/
+}
+
+.number {
+	position:absolute;
+	padding: 5px;
+	width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.num_12 {
+    top: 0;
+    left: 50%;
+    margin-left: -1em;
+}
+
+.num_3 {
+    top: 50%;
+    right: 0;
+    margin-top: -1em;
+}
+
+.num_6 {
+    bottom: 0;
+    left: 50%;
+    margin-left: -1em;
+}
+
+.num_9 {
+    top: 50%;
+    left: 0;
+    margin-top: -1em;
+}
+
+.hand {
+	height:5px;
+	top:95px;
+	background: #717071;
+	position:absolute;
+	transform-origin:100%;
+	transition-timing-function: cubic-bezier(0.3, 0.83, 0, 1.87);
+	z-index: 3;
+	border-radius:40% 0 0 40%;
+}
+
+.minute {
+	transform: rotate(130deg);
+	width:75px;
+	left:20px;
+	box-shadow: 0 -3px 5px rgba(0,0,0,0.15);
+}
+
+.hour {
+	transform: rotate(150deg);
+	width:45px;
+	left:50px;
+	box-shadow: 0 -3px 5px rgba(0,0,0,0.15);
+}
+
+.second {
+	transform: rotate(190deg);
+	width:60px;
+	height:2px;
+	left:35px;
+	background: #E3655D;
+	border-radius:0;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.15);
+}
+
+.center {
+	position:absolute;
+	margin-left: -.25em;
+	margin-top: -.25em;
+	left:50%;
+	top:50%;
+	z-index: 5;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background:-webkit-radial-gradient(center center, circle , #ffffff, #9A8993 93%, #4E3D47 100%);
+	box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
