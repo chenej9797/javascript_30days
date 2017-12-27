@@ -4,7 +4,7 @@ body {
 	overflow:hidden;
 	margin: 0;
 	padding: 0;
-	background-color: #694E6C;
+	background: -webkit-radial-gradient(center center, circle cover, #5d406f 0%, #33304e 100%);
 }
 
 .container {
