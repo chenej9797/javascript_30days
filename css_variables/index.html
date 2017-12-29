@@ -7,13 +7,14 @@
 </head>
 <body>
 	<div class="container">
-		<h1>Update CSS Variables With JS</h1>
+		<h1>Update CSS Variables With <span class="title_js">JS</span></h1>
 		<div class="controls">
-			<div class="control spacing"><span>Spacing:</span><input type="range" min="10" max="200" value="10" data-sizing="px" width="100"></div>
-			<div class="control blur"><span>Blur:</span><input type="range"></div>
-			<div class="control base_color"><span>Base Color:</span><input type="color"></div>
+			<div class="control spacing"><span>Spacing:</span><input name="spacing" type="range" min="10" max="200" value="10" data-sizing="px" width="100"></div>
+			<div class="control blur"><span>Blur:</span><input id="blur" type="range" name="blur" min="0" max="25" value="5" data-sizing="px"></div>
+			<div class="control base_color"><span>Base Color:</span><input id="base" type="color" name="base" value="#FD7E89"></div>
 		</div>
-		 
+		<img src="https://images.unsplash.com/photo-1465881930556-00caaedaa894?auto=format&fit=crop&w=1650&q=80" alt=""> 
 	</div>
 </body>
+<script src="main.js"></script>
 </html>

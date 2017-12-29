@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 html, body {
-	background: radial-gradient(center center, circle cover, #035C60 0%, #1f3d44 100%);
-  	background: -moz-radial-gradient(center center, circle cover, #035C60 0%, #1f3d44 100%);
-  	background: -webkit-radial-gradient(center center, circle cover, #035C60 0%, #1f3d44 100%);
+	background: radial-gradient(center center, circle cover, #89AA97 0%, #719480 100%);
+  	background: -moz-radial-gradient(center center, circle cover, #89AA97 0%, #719480 100%);
+  	background: -webkit-radial-gradient(center center, circle cover, #89AA97 0%, #719480 100%);
   	margin: 0;
   	padding: 0;
  	width:100%;
  	height:100%;
  	overflow:hidden;
  	font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+	--base:#FD7E89;
+	--spacing:10px;
+	--blur:5px;
 }
 
 .container {
@@ -22,30 +28,45 @@ html, body {
 }
 
 h1 {
-	color:#F2C84F;
+	color:#FFF798;
 	margin-bottom: 30px;
+}
+
+.title_js {
+	color: var(--base);
+}
+img {
+	width:80%;
+	margin-top: 30px;
+	padding: var(--spacing);
+	filter: blur(var(--blur));
+	background: var(--base);
 }
 
 .controls {
 	position:relative;
 	margin: 0 auto;
-	width:auto;
+	width:90%;
 	font-size: 18px;
-	color:#48B4AE;
+	color:#F4E3B7;
 }
 span {
 	padding: 0 5px;
 }
 .spacing {
 	float:left;
-	margin-right: 30px;
+	margin-right: 40px;
 }
 
 .blur {
 	float:left;
-	margin-right: 30px;
+	margin-right: 40px;
 }
 
 .base_color {
-	float:left;
+	float:right;
+}
+
+input {
+	width:90px;
 }
