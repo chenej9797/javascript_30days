@@ -3,6 +3,7 @@ const cities =[];
 fetch(endpoint)
 	.then(blob => blob.json())
 	.then(data => cities.push(...data)) //ES6 Spread Operator
+	.then(initData)
 
 function findMatches(wordToMatch, cities) {
 	const regex = new RegExp(wordToMatch, 'gi');  //正規表達式g:找出所有否則只找出一個，i:不分大小寫
@@ -28,7 +29,17 @@ function displayMatches() {
 	outputs.innerHTML = html;
 }
 
-console.log(cities);
+function initData() {
+	const html = cities.map(place => {
+		return `
+		<li>
+			<span>${place.city} ${place.state}</span>
+			<span>${numberWithCommas(place.population)}</span>
+		</li>
+		`
+	}).join('');
+	outputs.innerHTML = html;
+}
 
 const searchInput = document.querySelector('.search');
 const outputs = document.querySelector('.suggestions');
