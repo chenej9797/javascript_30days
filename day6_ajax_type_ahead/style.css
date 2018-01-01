@@ -1,0 +1,62 @@
+html,body {
+	background-color: #DD8F6D;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: 'Mukta Malar', sans-serif;
+}
+
+.search-form {
+	width:400px;
+	margin:50px auto;
+
+}
+
+input {
+	position:relative;
+	padding: 10px;
+	width:380px;
+	background-color: #D8E3B7;
+	color:#E65D5C;
+	border:none;
+	border-bottom: 1px solid #DD8F6D;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+color:#EF8B8B;}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color:#EF8B8B;}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+color:#EF8B8B;}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+color:#EF8B8B;}
+input.search {
+    margin: 0;
+    text-align: center;
+    outline:0;
+    z-index: 2;
+    font-size: 22px; 
+}
+.suggestions {
+position:relative;
+margin: 0;
+padding: 0;
+}
+
+li {
+	background:#EBCB77;
+      list-style: none;
+      border-bottom: 1px solid #DD8F6D;
+      margin:0;
+      padding:15px;
+      transition:background 0.2s;
+      display:flex;
+      justify-content:space-between;
+      text-transform: capitalize;
+      color:#E65D5C;
+      font-size: 18px;
+}
+
+.match_worlds {
+	background: #DD8F6D;
+	color: #EBCB77;
+}
