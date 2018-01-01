@@ -7,4 +7,6 @@
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/css_variables/image.jpg?raw=true" width="400"><br>
 [Day4 - Array Cardio](https://chenej9797.github.io/javascript_30days/css_variables/)<br><br><br>
 [Day5 - Flex panel Gallery](https://chenej9797.github.io/javascript_30days/day5_flex_panel_gallery/)<br>
-<img src="https://github.com/chenej9797/javascript_30days/blob/master/day5_flex_panel_gallery/image.jpg?raw=true" width="400"><br>
+<img src="https://github.com/chenej9797/javascript_30days/blob/master/day5_flex_panel_gallery/image.jpg?raw=true" width="400"><br><br>
+[Day5 - Type Ahead](https://chenej9797.github.io/javascript_30days/day6_ajax_type_ahead/)<br>
+<img src="https://github.com/chenej9797/javascript_30days/blob/master/day6_ajax_type_ahead/image.jpg?raw=true" width="400"><br><br>
