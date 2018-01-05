@@ -14,3 +14,6 @@
 [Day8_html canvas](https://chenej9797.github.io/javascript_30days/day8_html_canvas/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day8_html_canvas/image.jpg?raw=true" width="400"><br><br>
 [Day9 - Dev Tool](https://chenej9797.github.io/javascript_30days/day9_Dev_tool/)<br><br><br>
+[Day10_Hold shift and click checkboxes](https://chenej9797.github.io/javascript_30days/day10_checkboxes/)<br>
+<img src="https://github.com/chenej9797/javascript_30days/blob/master/day10_checkboxes/image.jpg?raw=true" width="400"><br><br>
+
