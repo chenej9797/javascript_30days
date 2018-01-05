@@ -20,6 +20,7 @@ function handleCheck(e) {
 	lastCheck = this;
 }
 function resetCheckBoxes() {
+	lastCheck = null;
 	checkBoxes.forEach(checkBox => checkBox.checked = false);
 }
 
