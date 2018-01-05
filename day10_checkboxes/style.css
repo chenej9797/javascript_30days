@@ -1,0 +1,45 @@
+html {
+      font-family: sans-serif;
+      background:#ABDAD7;
+      color:#625772;
+    }
+    .inbox {
+      position:relative;
+      max-width:400px;
+      margin:50px auto;
+      background:#FEFAEC;
+      border-radius:5px;
+      box-shadow:10px 10px 0 rgba(0,0,0,0.1);
+    }
+    .item {
+      display:flex;
+      align-items:center;
+      border-bottom: 1px solid #F1F1F1;
+    }
+    .item:last-child {
+      border-bottom:0;
+    }
+    input:checked + p{  /*加號代表同層的下一個指定物件，~則代表同層的接下來所有指定物件*/
+      background:#F2EDDD;
+      text-decoration: line-through;
+    }
+    input[type="checkbox"] { /*中括號代表可以用來篩選的element裡頭含有特定的property的物件，譬如這句的意思是：input裡面還有type是checkbox的物件*/
+      margin:20px;
+    }
+    p {
+      margin:0;
+      padding:20px;
+      transition:background 0.2s;
+      flex:1;
+      font-family:'helvetica neue';
+      font-size: 20px;
+      font-weight: 200;
+      border-left: 1px solid #D1E2FF;
+    }
+    .reset {
+      cursor: pointer;
+      position:absolute;
+      bottom:0px;
+      right:-60px;
+      font-size: 32px;
+    }
