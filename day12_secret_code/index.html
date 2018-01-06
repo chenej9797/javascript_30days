@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Secret Code</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Ranga');
+		html,body {
+			background-color: #283C63;
+			text-align:center;
+		}
+		.text {
+			margin-top: 50px;
+			font-family: 'Ranga', cursive;
+			font-size: 54px;
+			color:#928A97;
+		}
+		.bingo {
+			margin-top: 100px;
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 100px;
+			color:#F85F73;
+			opacity:0;
+		}
+		.bingo_active {
+			animation-name: bingo;
+    		animation-duration: 1.5s;
+
+		}
+		@keyframes bingo {
+			0% {opacity: 0}
+			20% {opacity: 1}
+			100% {0}
+		}
+	</style>
+</head>
+<body>
+	<div class="text">Type "chenej"</div>
+	<div class="bingo">BINGO!!</div>
+</body>
+<script>
+	const secret = 'chenej';
+	const arr =[];  //[1,2,3,4,5,6,7,8,9] [4,5,6,7,8,9]
+	const bingo = document.querySelector('.bingo');
+
+	window.addEventListener('keyup', (e) => {
+		console.log(e.key);
+		arr.push(e.key);
+		arr.splice(0, arr.length - secret.length);
+		console.log(arr);
+
+		if (arr.join('').includes(secret)) {
+			bingo.classList.add('bingo_active');
+			setTimeout(function() {bingo.classList.remove('bingo_active')},1500);
+		}
+	})
+</script>
+</html>
