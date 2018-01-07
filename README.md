@@ -22,4 +22,5 @@
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day12_secret_code/image.jpg?raw=true" width="400"><br><br>
 [Day13 - Slide in on Scroll](https://chenej9797.github.io/javascript_30days/day13_slide_in_on_scroll/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day13_slide_in_on_scroll/image.jpg?raw=true" width="400"><br><br>
+[Day14 - Reference and Copy](https://chenej9797.github.io/javascript_30days/day14_reference_vs_copy/)<br><br><br>
 
