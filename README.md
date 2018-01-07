@@ -16,6 +16,8 @@
 [Day9 - Dev Tool](https://chenej9797.github.io/javascript_30days/day9_Dev_tool/)<br><br><br>
 [Day10_Hold shift and click checkboxes](https://chenej9797.github.io/javascript_30days/day10_checkboxes/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day10_checkboxes/image.jpg?raw=true" width="400"><br><br>
+[Day11_Html_Video_Player](https://chenej9797.github.io/javascript_30days/day11_html_video_player/)<br>
+<img src="https://github.com/chenej9797/javascript_30days/blob/master/day11_html_video_player/image.jpg?raw=true" width="400"><br><br>
 [Day12_Secret Code](https://chenej9797.github.io/javascript_30days/day12_secret_code/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day12_secret_code/image.jpg?raw=true" width="400"><br><br>
 
