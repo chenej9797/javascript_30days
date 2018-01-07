@@ -11,15 +11,15 @@
 [Day6 - Type Ahead](https://chenej9797.github.io/javascript_30days/day6_ajax_type_ahead/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day6_ajax_type_ahead/image.jpg?raw=true" width="400"><br><br>
 [Day7 - Array Cardio2](https://chenej9797.github.io/javascript_30days/day7_array_cardio/)<br><br><br>
-[Day8_html canvas](https://chenej9797.github.io/javascript_30days/day8_html_canvas/)<br>
+[Day8 - html canvas](https://chenej9797.github.io/javascript_30days/day8_html_canvas/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day8_html_canvas/image.jpg?raw=true" width="400"><br><br>
 [Day9 - Dev Tool](https://chenej9797.github.io/javascript_30days/day9_Dev_tool/)<br><br><br>
-[Day10_Hold shift and click checkboxes](https://chenej9797.github.io/javascript_30days/day10_checkboxes/)<br>
+[Day10 - Hold shift and click checkboxes](https://chenej9797.github.io/javascript_30days/day10_checkboxes/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day10_checkboxes/image.jpg?raw=true" width="400"><br><br>
-[Day11_Html_Video_Player](https://chenej9797.github.io/javascript_30days/day11_html_video_player/)<br>
+[Day11 - Html Video Player](https://chenej9797.github.io/javascript_30days/day11_html_video_player/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day11_html_video_player/image.jpg?raw=true" width="400"><br><br>
-[Day12_Secret Code](https://chenej9797.github.io/javascript_30days/day12_secret_code/)<br>
+[Day12 - Secret Code](https://chenej9797.github.io/javascript_30days/day12_secret_code/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day12_secret_code/image.jpg?raw=true" width="400"><br><br>
-[Day12_Slide_in_on_Scroll](https://chenej9797.github.io/javascript_30days/day13_slide_in_on_scroll/)<br>
+[Day13 - Slide in on Scroll](https://chenej9797.github.io/javascript_30days/day13_slide_in_on_scroll/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day13_slide_in_on_scroll/image.jpg?raw=true" width="400"><br><br>
 
