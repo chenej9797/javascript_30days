@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mouse Shadow</title>
+</head>
+<body>
+
+  <div class="hero">
+    <h1 contenteditable>🔥WOAH!</h1>
+  </div>
+
+  <style>
+  html {
+    background-color: #FBD0F5;
+    color:#D7AEF3;
+    font-family: sans-serif;
+  }
+  body {
+    margin: 0;
+  }
+  .hero {
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:#D7AEF3;
+  }
+  h1 {
+    text-shadow: 10px 10px 0 rgba(148, 246, 242, .7);
+    font-size: 100px;
+  }
+  </style>
+
+<script>
+  const hero = document.querySelector('.hero');
+  const text = hero.querySelector('h1');
+  function textShadow(e) {
+    const width = hero.offsetWidth;
+    const height = hero.offsetHeight;
+    const shadowDistance = 50;
+    // const {offsetWidth: width, offsetHeight: height} = hero;  ES6
+    let x = e.offsetX;
+    let y = e.offsetY;
+
+    if (this !== e.target) {   //如果游標指向的區域不是hero, 而是它的子層
+      x = x + e.target.offsetLeft;  //調整x的值。 x = x + 目前只向區域跟該母層的距離
+      y = y + e.target.offsetTop;
+    }
+
+    let shadowX = (x - (width/2))*(shadowDistance/(width/2));
+    let shadowY = (y - (height/2))*(shadowDistance/(height/2));
+    text.style.textShadow = `${shadowX}px ${shadowY}px 0 rgba(148, 246, 242, 1),
+                             ${shadowX*-1}px ${shadowY*-1}px 0 rgba(247, 246, 128, 1)`;
+    console.log(x, y);
+  }
+  hero.addEventListener('mousemove', textShadow);
+</script>
+</body>
+</html>
