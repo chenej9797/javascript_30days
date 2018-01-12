@@ -27,5 +27,7 @@
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day16_CSS_shadow/image.jpg?raw=true" width="400"><br><br>
 [Day22 - Follow Along Links](https://chenej9797.github.io/javascript_30days/day22_follow_along_links/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day22_follow_along_links/image.jpg?raw=true" width="400"><br><br>
+[Day24 - Stickt Nav](https://chenej9797.github.io/javascript_30days/day24_sticky_nav/)<br>
+<img src="https://github.com/chenej9797/javascript_30days/blob/master/day24_sticky_nav/image.jpg?raw=true" width="400"><br><br>
 
 
