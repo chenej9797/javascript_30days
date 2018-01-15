@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Understanding JavaScript's Capture</title>
+</head>
+<body class="bod">
+
+  <div class="one">
+    <div class="two">
+      <div class="three">
+      </div>
+    </div>
+  </div>
+  <button></button>
+<style>
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after { box-sizing: inherit; }
+  div {
+    width:100%;
+    padding:100px;
+  }
+  .one {
+    background: thistle;
+  }
+  .two {
+    background:mistyrose;
+  }
+  .three {
+    background:coral;
+  }
+</style>
+
+<button></button>
+<script>
+  const divs = document.querySelectorAll('div');
+  function logText(e) {
+    console.log(this.classList.value);
+  }
+  function logText2(e) {
+    console.log(this.classList.value);
+    e.stopPropagation();  //防止bubbling狀況發生，所以這邊如果按下three部分就只會顯示three
+  }
+  function logText3(e) {
+    console.log(this.classList.value);
+  }
+
+  //divs.forEach(div => div.addEventListener('click', logText));  //因為Bubbling，當滑鼠在'three'區塊按下時，也等同按下'two','one'，甚至整個body,整個window。
+
+  divs.forEach(div => div.addEventListener('click', logText, {
+    capture: true  //加上capture並設定true, 代表console出來的value會從外層到內層呈現。
+  }));
+
+  // divs.forEach(div => div.addEventListener('click', logText2));
+
+  divs.forEach(div => div.addEventListener('click', logText2, {
+    once: true
+  }));
+</script>
+</body>
+</html>
