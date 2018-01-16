@@ -30,6 +30,8 @@
 [Day24 - Stickt Nav](https://chenej9797.github.io/javascript_30days/day24_sticky_nav/)<br>
 <img src="https://github.com/chenej9797/javascript_30days/blob/master/day24_sticky_nav/image.jpg?raw=true" width="400"><br><br>
 [Day25 - Event Capture](https://chenej9797.github.io/javascript_30days/day25_event_capture/)<br><br><br>
+[Day26 - Follow Along Nav](https://chenej9797.github.io/javascript_30days/day26_stripe_follow_along_dropdown/)<br>
+<img src="https://github.com/chenej9797/javascript_30days/blob/master/day26_stripe_follow_along_dropdown/image.jpg?raw=true" width="400"><br><br>
 
 
 
